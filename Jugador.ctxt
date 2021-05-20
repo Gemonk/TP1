@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=Jugador
+comment0.text=\r\n\ Controla\ lo\ que\ ocurre\ con\ el\ jugador\r\n@author\ G\u00E9nesis\ Herrera\ Knyght\ C03021\r\n\ @version\ 18/5/2021\r\n
+comment1.params=
+comment1.target=Jugador\ crearJugador()
+comment1.text=\r\n\ Costructor\ de\ la\ clase\r\n\ @return\ Devuelve\ el\ jugador\ nuevo\ \r\n\ \r\n
+comment10.params=
+comment10.target=int[]\ puntosJugador()
+comment10.text=\r\n\ @return\ Devuelve\ arreglo\ con\ los\ puntos\ del\ jugador\r\n\ \r\n
+comment2.params=nombreNuevo
+comment2.target=void\ setNombre(java.lang.String)
+comment2.text=\r\n\ Recibe\ el\ nombre\ del\ jugador\r\n\ @param\ nombreNuevo\=\ nombre\ del\ jugador\r\n
+comment3.params=jugadasJuego
+comment3.target=void\ setJugadas(int)
+comment3.text=\r\n\ Guarda\ las\ jugadas\ del\ jugador\r\n\ @param\ int\ jugadasJuego\=\ posicion\ que\ jug\u00F3\ el\ jugador\r\n\ \r\n
+comment4.params=turnoNuevo
+comment4.target=void\ setTurno(int)
+comment4.text=\r\n\ Guarda\ el\ turno\ del\ jugador\r\n\ @param\ int\ turnoNuevo\=\ turno\ del\ jugador\r\n\ \r\n
+comment5.params=puntosJugador
+comment5.target=void\ setPuntos(int)
+comment5.text=\r\n\ Guarda\ los\ puntos\ del\ jugador\r\n\ @param\ int\ puntosJugador\=\ puntos\ nuevos\ del\ jugador\r\n\ \r\n
+comment6.params=
+comment6.target=int\ sumaPuntos()
+comment6.text=\r\n\ Suma\ los\ puntos\ del\ jugador\r\n\ @return\ puntos\ del\ jugador\ sumados\r\n\ \r\n
+comment7.params=
+comment7.target=java.lang.String\ getNombre()
+comment7.text=\r\n\ @return\ Devuelve\ nombre\ del\ jugador\r\n\ \r\n
+comment8.params=
+comment8.target=int[]\ jugadasJuego()
+comment8.text=\r\n\ @return\ Devuelve\ arreglo\ con\ las\ jugadas\ del\ jugador\r\n\ \r\n
+comment9.params=
+comment9.target=int[]\ turnoNuevo()
+comment9.text=\r\n\ @return\ Devuelve\ arreglo\ los\ turnos\ del\ jugador\r\n\ \r\n
+numComments=11

@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=GestorJugador
+comment0.text=\r\n\ Controla\ lo\ que\ ocurre\ con\ los\ jugadores\r\n\r\n\ @author\ G\u00E9nesis\ Herrera\ Knyght\ C03021\r\n\ @version\ 19/5/2021\r\n
+comment1.params=
+comment1.target=GestorJugador\ creeGestor()
+comment1.text=\r\n\ Costructor\ de\ la\ clase\r\n\ @return\ Devuelve\ gestor\ del\ jugador\ nuevo\ \r\n\ \r\n
+comment2.params=jugadorNuevo
+comment2.target=void\ agregarJugador(Jugador)
+comment2.text=\r\n\ Guarda\ a\ un\ nuevo\ jugador\r\n\ @param\ Jugador\ jugadorNuevo\ \=\ nuevo\ jugador\ y\ todos\ sus\ datos\r\n\ \r\n
+comment3.params=
+comment3.target=Jugador[]\ getJugador()
+comment3.text=\r\n\ @return\ jugadores\ dentro\ de\ un\ arreglo\r\n
+comment4.params=
+comment4.target=int\ turno1()
+comment4.text=\r\n\ Devuelve\ un\ n\u00FAmero\ aleatorio\ de\ jugador\ en\ el\ arreglo\ que\ comienza\r\n\ @return\ n\u00FAmero\ aleatorio\r\n
+comment5.params=turno
+comment5.target=java.lang.String\ jugadorTurno(int)
+comment5.text=\r\n\ Devuelve\ un\ nombre\ de\ un\ un\ jugador\r\n\ @return\ nombre\ del\ jugador\r\n
+comment6.params=
+comment6.target=int\ jugadorPuntos()
+comment6.text=\r\n\ Devuelve\ la\ suma\ de\ puntos\ por\ jugada\ del\ jugador\r\n\ @see\ clase\ Mazo\r\n\ @see\ clase\ Jugador\r\n\ @return\ puntaje\r\n
+comment7.params=
+comment7.target=java.lang.String\ ganadorNombre()
+comment7.text=\r\n\ Devuelve\ el\ nombre\ del\ jugador\ ganador\r\n\ @see\ clase\ Jugador\r\n\ @return\ nombre\r\n
+comment8.params=
+comment8.target=int\ ganadorPuntos()
+comment8.text=\r\n\ Devuelve\ el\ puntaje\ del\ jugador\ ganador\r\n\ @see\ clase\ Jugador\r\n\ @return\ puntaje\r\n
+comment9.params=
+comment9.target=void\ imprimirHistorial()
+comment9.text=\r\n\ Muestra\ los\ datos\ de\ cada\ jugador\r\n\ @see\ clase\ Jugador\r\n\ \r\n
+numComments=10

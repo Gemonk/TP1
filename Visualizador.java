@@ -1,6 +1,6 @@
 
 import javax.swing.JOptionPane;
-import javax.swing.JTextArea;
+
 /**
  * Contiene los métodos relevantes para la interfáz gráfica / visualizador.
  * 
@@ -10,7 +10,7 @@ import javax.swing.JTextArea;
 public class Visualizador extends JOptionPane
 {
     private final String TITULO;
-    
+    //Carta carta=new Carta();
     /**
      * constructor.
      * @param elTitulo= el título de la ventana a mostrar
@@ -68,8 +68,13 @@ public class Visualizador extends JOptionPane
         this.showMessageDialog(null,msj,TITULO,PLAIN_MESSAGE);
     }
     
-     public void muestreJuego(String msj){
-        JTextArea jt = new JTextArea(msj);
-        JOptionPane.showMessageDialog(null,jt);
+    /**
+     * @param msj = mensaje que despliega la ventana que ve el usuario
+     */
+    public void muestreNúmero(String msj){
+        // Despliega un mensaje
+        this.showMessageDialog(null,msj,TITULO,PLAIN_MESSAGE);
     }
+    
+
 }

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Carta
+comment0.text=\r\n\ Crea\ cartas\r\n\r\n\ @author\ G\u00E9nesis\ Herrera\ Knyght\ C03021\r\n\ @version\ 11/5/2021\r\n
+comment1.params=n\ l
+comment1.target=Carta(int,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ de\ clase\r\n\ @param\ int\ n\=\ numero\ de\ la\ carta\r\n\ @param\ String\ l\=\ letra\ de\ la\ carta\r\n
+comment2.params=numeroN
+comment2.target=void\ setNumero(int)
+comment2.text=\r\n\ Guarda\ el\ n\u00FAmero\ de\ la\ carta\r\n\ @param\ int\ numeroN\=recibe\ el\ n\u00FAmero\ nuevo\ de\ la\ carta\r\n
+comment3.params=letraN
+comment3.target=void\ setLetra(java.lang.String)
+comment3.text=\r\n\ Guarda\ la\ letra\ de\ la\ carta\r\n\ @param\ String\ letraN\=recibe\ la\ letra\ nueva\ de\ la\ carta\r\n
+comment4.params=
+comment4.target=int\ getNumero()
+comment4.text=\r\n\ Muestra\ el\ n\u00FAmero\ de\ la\ carta\r\n\ \ @return\ numero\ de\ la\ carta\r\n
+comment5.params=
+comment5.target=java.lang.String\ getLetra()
+comment5.text=\r\n\ Muestra\ la\ letra\ de\ la\ carta\r\n\ \ @return\ la\ letra\ de\ la\ carta\r\n
+comment6.params=
+comment6.target=void\ imprimir()
+comment6.text=\r\n\ Imprime\ el\ contenido\ de\ la\ carta\r\n\ \r\n
+numComments=7

@@ -1,0 +1,70 @@
+#BlueJ class context
+comment0.target=Mazo
+comment0.text=\r\n\ En\ esta\ clase\ se\ crean\ las\ cartas\ y\ se\ maneja\ lo\ que\ ocurre\ con\ ellas\r\n\r\n\ @author\ G\u00E9nesis\ Herrera\ Knyght\ C03021\r\n\ @version\ 19/5/2021\r\n
+comment1.params=k\ t
+comment1.target=void\ crearCartas(int,\ int)
+comment1.text=\r\n\ Llena\ el\ mazo\ con\ pares\ y\ trios\ de\ cartas\r\n\ @param\ int\ k\ \=\ cantidad\ pares\ de\ cartas\r\n\ @param\ int\ t\ \=\ cantidad\ trios\ de\ cartas\r\n\ @see\ clase\ Carta\r\n
+comment10.params=c
+comment10.target=Carta[]\ revelarCarta(int)
+comment10.text=\r\n\ Revela\ una\ carta\ en\ una\ posici\u00F3n\ dada\r\n\ @param\ int\ c\=\ posicion\ de\ la\ carta\ a\ revelar\r\n\ @see\ clase\ Carta\r\n\ @return\ cartaEscondida\=\ arreglo\ con\ la\ carta\ revelada\r\n
+comment11.params=c
+comment11.target=boolean\ trio(int)
+comment11.text=\r\n\ Busca\ si\ la\ carta\ en\ la\ posicion\ dada\ pertenece\ a\ un\ tr\u00EDo\r\n\ @param\ int\ c\=\ posicion\ de\ la\ carta\r\n\ @return\ hayTrio\=\ bandera\ para\ saber\ si\ existe\ un\ tr\u00EDo\r\n
+comment12.params=a\ b
+comment12.target=boolean\ compararLetra(int,\ int)
+comment12.text=\r\n\ Compara\ las\ letras\ de\ dos\ cartas\r\n\ @see\ clase\ Carta\r\n\ @param\ int\ a\=\ posicion\ de\ la\ primera\ carta\r\n\ @param\ int\ b\=\ posicion\ de\ la\ segunda\ carta\r\n\ @return\ letraIgual\=\ bandera\ para\ saber\ si\ la\ letra\ es\ igual\ en\ ambas\ cartas\ o\ no\r\n
+comment13.params=a\ b
+comment13.target=boolean\ compararNumero(int,\ int)
+comment13.text=\r\n\ Compara\ los\ n\u00FAmeros\ de\ dos\ cartas\r\n\ @see\ clase\ Carta\r\n\ @param\ int\ a\=\ posicion\ de\ la\ primera\ carta\r\n\ @param\ int\ b\=\ posicion\ de\ la\ segunda\ carta\r\n\ @return\ numeroIgual\=\ bandera\ para\ saber\ si\ el\ n\u00FAmero\ es\ igual\ en\ ambas\ cartas\ o\ no\r\n
+comment14.params=a\ b
+comment14.target=boolean\ compararAmbos(int,\ int)
+comment14.text=\r\n\ Compara\ n\u00FAmero\ y\ letra\ de\ dos\ cartas\r\n\ @param\ int\ a\=\ posicion\ de\ la\ primera\ carta\r\n\ @param\ int\ b\=\ posicion\ de\ la\ segunda\ carta\r\n\ @return\ ambosIgual\=\ bandera\ para\ saber\ si\ el\ n\u00FAmero\ y\ la\ letra\ es\ igual\ en\ ambas\ cartas\ o\ no\r\n
+comment15.params=
+comment15.target=int\ Darnumero()
+comment15.text=\r\n\ Devuelve\ el\ n\u00FAmero\ que\ contiene\ la\ carta\r\n\ @see\ clase\ Carta\r\n\ @return\ numero\=\ numero\ de\ la\ carta\r\n
+comment16.params=a\ b\ c\ trio
+comment16.target=Carta[]\ borrarCarta(int,\ int,\ int,\ boolean)
+comment16.text=\r\n\ Devuelve\ el\ n\u00FAmero\ que\ contiene\ la\ carta\r\n\ @param\ int\ a\=\ posici\u00F3n\ de\ la\ primera\ carta\ digitada\r\n\ @param\ int\ b\=\ posici\u00F3n\ de\ la\ segunda\ carta\ digitada\r\n\ @param\ int\ c\=\ posici\u00F3n\ de\ la\ tercera\ carta\ digitada\r\n\ @param\ boolean\ trio\=\ bandera\ que\ indica\ si\ hay\ un\ trio\ \r\n\ @return\ revolverC\=\ arreglo\ con\ las\ cartas\ borradas\r\n
+comment17.params=
+comment17.target=void\ crearEspecial()
+comment17.text=\r\n\ Crea\ las\ cartas\ especiales\r\n\ @see\ clase\ CartaEspecial\r\n
+comment18.params=
+comment18.target=CartaEspecial[]\ revolverArregloE()
+comment18.text=\r\n\ Revuelve\ el\ arreglo\ de\ cartas\ especiales\r\n\ @return\ revolverE\=\ arreglo\ de\ cartas\ especiales\ ya\ revuelto\r\n
+comment19.params=
+comment19.target=CartaEspecial[]\ borrarCartaE()
+comment19.text=\r\n\ Borra\ las\ cartas\ especiales\r\n\ @return\ revolverE\=\ arreglo\ de\ cartas\ especiales\ con\ la\ carta\ ya\ borrada\r\n
+comment2.params=valor
+comment2.target=int\ obtenerNumero(int)
+comment2.text=\r\n\ Brinda\ un\ n\u00FAmero\ aleatorio\ para\ el\ contenido\ de\ las\ cartas\r\n\ @param\ int\ valor\=numero\ de\ carta\r\n\ @return\ n\r\n
+comment20.params=
+comment20.target=CartaEspecial\ escogerCartaE()
+comment20.text=\r\n\ Selecciona\ una\ carta\ especial\r\n\ @return\ carta\=\ carta\ especial\ seleccionada\r\n
+comment21.params=a
+comment21.target=int\ aplicarCartaE(int)
+comment21.text=\r\n\ Devuelve\ el\ efecto\ de\ de\ la\ carta\ ya\ aplicado\ a\ los\ puntos\r\n\ @see\ clase\ CartaEspecial\r\n\ @see\ clase\ Jugador\r\n\ @return\ puntos\=\ puntos\ del\ jugador\r\n
+comment22.params=pregunta
+comment22.target=boolean\ hayCartas(int)
+comment22.text=\r\n\ Revisa\ si\ hay\ cartas\ a\u00FAn\ que\ se\ puedan\ emparejar\r\n\ @see\ clase\ Carta\r\n\ @see\ clase\ Visualizador\r\n\ @param\ int\ pregunta\=\ numero\ que\ indica\ si\ el\ jugador\ desea\ seguir\ o\ no\r\n\ @return\ seguir\=\ bandera\ para\ saber\ si\ se\u00B4puede\ seguir\ jugando\r\n
+comment3.params=valor
+comment3.target=java.lang.String\ obtenerLetra(int)
+comment3.text=\r\n\ Brinda\ una\ letra\ aleatoria\ para\ el\ contenido\ de\ las\ cartas\r\n\ @param\ int\ valor\=\ numero\ de\ carta\ \r\n\ @return\ letra\r\n
+comment4.params=
+comment4.target=Carta[]\ revolverArreglo()
+comment4.text=\r\n\ Revuelve\ el\ arreglo\ de\ cartas\r\n\ @return\ revolverC\=arreglo\ ya\ revuelto\r\n
+comment5.params=
+comment5.target=Carta[]\ devolverRevolverA()
+comment5.text=\r\n\ Devuelve\ el\ arreglo\ revuelto\r\n\ @return\ revolverC\=arreglo\ ya\ revuelto\r\n
+comment6.params=
+comment6.target=void\ imprimirRevueltas()
+comment6.text=\r\n\ Imprime\ el\ arreglo\ revuelto\r\n\ @see\ clase\ Carta\r\n
+comment7.params=
+comment7.target=void\ imprimir()
+comment7.text=\r\n\ Imprime\ el\ arreglo\ de\ cartas\r\n\ @see\ clase\ Carta\r\n
+comment8.params=
+comment8.target=void\ esconderCarta()
+comment8.text=\r\n\ Esconde\ las\ cartas\ creadas\r\n\ @see\ clase\ Carta\r\n
+comment9.params=
+comment9.target=void\ imprimirEscondida()
+comment9.text=\r\n\ Imprime\ las\ cartas\ escondidas\r\n\ @see\ clase\ Carta\r\n
+numComments=23

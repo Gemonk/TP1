@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Controlador
+comment0.text=\r\n\ Controla\ lo\ que\ ocurre\ en\ el\ programa,\ la\ interf\u00E1z\ mostrada\ al\ usuario\ y\ \r\n\ qu\u00E9\ hacer\ seg\u00FAn\ la\ elecci\u00F3n\ en\ el\ men\u00FA.\r\n\ \r\n\ @author\ G\u00E9nesis\ Herrera\ Knyght\r\n\ @version\ 18/5/2021\r\n
+comment1.params=
+comment1.target=Controlador()
+comment1.text=\r\n\ constructor.\r\n\ @see\ clase\ Visualizador\r\n\ @see\ clase\ GestorJugador\r\n
+comment2.params=
+comment2.target=void\ iniciar()
+comment2.text=\r\n\ @throws\ NumberFormatException\=\ indica\ al\ usiario\ que\ no\ ingreso\ un\ numero\ correcto\r\n\ @see\ clase\ Visualizador\r\n\ @see\ clase\ GestorJugador\r\n\ @see\ clase\ Jugador\r\n\ @see\ clase\ Reglas\r\n\ @see\ clase\ CartaEspecial\r\n\ @see\ clase\ Mazo\r\n\ \r\n
+comment3.params=parametros
+comment3.target=void\ main(java.lang.String[])
+numComments=4

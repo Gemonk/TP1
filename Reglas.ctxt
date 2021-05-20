@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Reglas
+comment0.text=\r\n\ Instrucciones\ para\ jugar\r\n\r\n\ @author\ G\u00E9nesis\ Herrera\ Knyght\ C03821\r\n\ @version\ 10/5/2021\r\n
+comment1.params=
+comment1.target=java.lang.String\ reglas()
+comment1.text=\r\n\ Contiene\ las\ reglas\ del\ juego\r\n\ @return\ devuelve\ un\ String\ con\ todas\ las\ reglas\r\n\ \r\n
+numComments=2

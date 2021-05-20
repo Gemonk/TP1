@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Visualizador
+comment0.text=\r\n\ Contiene\ los\ m\u00E9todos\ relevantes\ para\ la\ interf\u00E1z\ gr\u00E1fica\ /\ visualizador.\r\n\ \r\n\ @author\ G\u00E9nesis\ Herrera\ Knyght\ C03821\r\n\ @version\ 10/5/2021\r\n
+comment1.params=elTitulo
+comment1.target=Visualizador(java.lang.String)
+comment1.text=\r\n\ constructor.\r\n\ @param\ elTitulo\=\ el\ t\u00EDtulo\ de\ la\ ventana\ a\ mostrar\r\n
+comment2.params=msg
+comment2.target=int\ ingreseInt(java.lang.String)
+comment2.text=\r\n\ @param\ msg\=\ mensaje\ que\ se\ despliega\ en\ cada\ ventana\r\n\ @return\ devuelve\ un\ numero\ entero\ ingresado\ por\ el\ usuario\r\n
+comment3.params=msg
+comment3.target=java.lang.String\ ingreseHilera(java.lang.String)
+comment3.text=\r\n\ @param\ msg\=\ mensaje\ que\ se\ despliega\ en\ cada\ ventana\r\n\ @return\ devuelve\ una\ hilera\ de\ texto\ ingresada\ por\ el\ usuario\r\n
+comment4.params=lasOpciones\ elMensaje
+comment4.target=int\ pedirOpcion(java.lang.String[],\ java.lang.String)
+comment4.text=\r\n\ @param\ lasOpciones\ \=\ arreglo\ que\ contiene\ las\ opciones\ que\ el\ usuario\ puede\ elegir\r\n\ @param\ elMensaje\=\ mensaje\ con\ indicaciones\ para\ el\ usuario\r\n\ @return\ devuelve\ el\ n\u00FAmero\ de\ eleccion\ del\ usuario\r\n
+comment5.params=CREDITOS
+comment5.target=void\ mostrarCreditos(java.lang.String)
+comment5.text=\r\n\ @param\ CREDITOS\ \=\ parametro\ que\ contiene\ el\ nombre\ de\ los\ realizadores\ del\ c\u00F3digo\r\n\ \r\n
+comment6.params=msj
+comment6.target=void\ muestre(java.lang.String)
+comment6.text=\r\n\ @param\ msj\ \=\ mensaje\ que\ despliega\ la\ ventana\ que\ ve\ el\ usuario\r\n
+comment7.params=msj
+comment7.target=void\ muestreN\u00FAmero(java.lang.String)
+comment7.text=\r\n\ @param\ msj\ \=\ mensaje\ que\ despliega\ la\ ventana\ que\ ve\ el\ usuario\r\n
+numComments=8
